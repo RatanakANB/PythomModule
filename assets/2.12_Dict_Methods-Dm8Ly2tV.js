@@ -1,6 +1,6 @@
 var e=`# 📖 Dict Methods — All 11 Methods
 
-> 🏠 Parent: [[1.9_dict]] · [[2.1_What_Are_Methods]]
+> 🏠 Parent: [[1.9_tuple]] · [[2.1_What_Are_Methods]]
 > 📂 Section: Methods
 > 🔑 Key concept: Dicts are [[2.2_Mutability_vs_Immutability|mutable]] — methods can **add, change, and remove** key-value pairs
 
@@ -340,7 +340,7 @@ print(pet.keys())   # dict_keys(['name', 'animal', 'age', 'color'])
 
 ## 🔗 Related Concepts
 
-- **Data type:** [[1.9_dict]]
+- **Data type:** [[1.9_tuple]]
 - **Mutable behavior:** [[2.2_Mutability_vs_Immutability]]
 - **Call syntax:** [[2.3_Method_Call_Syntax]]
 - **Overview:** [[2.4_Methods_Insight]]

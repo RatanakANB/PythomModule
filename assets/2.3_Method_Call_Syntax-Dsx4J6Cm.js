@@ -156,6 +156,6 @@ print(new_name)          # teddy bunny
 
 - **What methods are:** [[2.1_What_Are_Methods]]
 - **Mutable vs Immutable behavior:** [[2.2_Mutability_vs_Immutability]]
-- **Method references:** [[2.5_String_Methods]] · [[2.6_Int_Methods]] · [[2.7_Float_Methods]] · [[2.8_Bool_Methods]] · [[2.9_List_Methods]] · [[2.10_Set_Methods]] · [[2.13_Tuple_Methods]] · [[2.12_Dict_Methods]]
+- **Method references:** [[2.5_String_Methods]] · [[2.6_Int_Methods]] · [[2.7_Float_Methods]] · [[2.8_Bool_Methods]] · [[2.9_List_Methods]] · [[2.10_Set_Methods]] · [[2.11_Tuple_Methods]] · [[2.12_Dict_Methods]]
 - **All methods overview:** [[2.4_Methods_Insight]]
 `;export{e as default};

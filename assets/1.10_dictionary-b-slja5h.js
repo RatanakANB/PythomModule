@@ -2,7 +2,7 @@ var e=`# 📌 tuple — Tuple
 
 > 🏠 Parent: [[1.1_Variables]] · [[00_Index]]
 > 📂 Section: Variables & Data Types
-> 🔧 Methods: [[2.13_Tuple_Methods]]
+> 🔧 Methods: [[2.11_Tuple_Methods]]
 
 ---
 
@@ -138,9 +138,9 @@ print(my_birthday[2])    # 2015
 ## 🔗 Related Concepts
 
 - **Parent:** [[1.1_Variables]]
-- **Methods:** [[2.13_Tuple_Methods]] (only 2 methods: \`count\` and \`index\`)
+- **Methods:** [[2.11_Tuple_Methods]] (only 2 methods: \`count\` and \`index\`)
 - **Similar types:** [[1.7_list]] (same but mutable), [[1.2_str]] (also immutable and indexable)
-- **Related types:** [[1.8_set]] (unordered version), [[1.9_dict]] (key-value pairs)
+- **Related types:** [[1.8_set]] (unordered version), [[1.9_tuple]] (key-value pairs)
 - **Operators:** [[3.1_Arithmetic]] (\`+\` joins tuples), [[3.5_Membership]] (\`in\` checks for items), [[3.4_Comparison]] (compare tuples)
 - **Key concept:** [[2.2_Mutability_vs_Immutability]] — tuples are **immutable**
 `;export{e as default};

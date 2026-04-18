@@ -136,7 +136,7 @@ print(len(my_cards))      # 4
 
 - **Parent:** [[1.1_Variables]]
 - **Methods:** [[2.10_Set_Methods]] (17 methods — add, remove, union, intersection, etc.)
-- **Similar types:** [[1.7_list]] (ordered, allows duplicates), [[1.10_dictionary]] (ordered, immutable), [[1.9_dict]] (also uses \`{}\` but with key-value pairs)
+- **Similar types:** [[1.7_list]] (ordered, allows duplicates), [[1.10_dictionary]] (ordered, immutable), [[1.9_tuple]] (also uses \`{}\` but with key-value pairs)
 - **Operators:** [[3.5_Membership]] (\`in\` is extremely fast for sets), [[3.4_Comparison]] (subset/superset checks)
 - **Key concept:** [[2.2_Mutability_vs_Immutability]] — sets are **mutable** (can add/remove items, but items themselves must be immutable)
 `;export{e as default};

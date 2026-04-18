@@ -13,7 +13,7 @@ This is one of the most important concepts in Python. It determines whether a me
 
 ### What is it?
 
-- **Mutable** types (like [[1.7_list]], [[1.8_set]], [[1.9_dict]]) — you CAN change their contents after creation
+- **Mutable** types (like [[1.7_list]], [[1.8_set]], [[1.9_tuple]]) — you CAN change their contents after creation
 - **Immutable** types (like [[1.2_str]], [[1.3_int]], [[1.4_float]], [[1.5_bool]], [[1.10_dictionary]]) — you CANNOT change them; methods return a **new** value instead
 
 ### Why does it exist?
@@ -157,7 +157,7 @@ print(tower)               # ['red', 'blue', 'green']
 | [[1.10_dictionary]] | ❌ No | Return new value | \`t.count(x)\` → new int |
 | [[1.7_list]] | ✅ Yes | Modify in place | \`lst.sort()\` → changes lst |
 | [[1.8_set]] | ✅ Yes | Modify in place | \`s.add(x)\` → changes s |
-| [[1.9_dict]] | ✅ Yes | Modify in place | \`d.update({})\` → changes d |
+| [[1.9_tuple]] | ✅ Yes | Modify in place | \`d.update({})\` → changes d |
 
 ---
 
@@ -166,5 +166,5 @@ print(tower)               # ['red', 'blue', 'green']
 - **What methods are:** [[2.1_What_Are_Methods]]
 - **How to call them:** [[2.3_Method_Call_Syntax]]
 - **See it in action:** [[2.5_String_Methods]] (immutable) · [[2.9_List_Methods]] (mutable) · [[2.10_Set_Methods]] (mutable) · [[2.12_Dict_Methods]] (mutable)
-- **Data types:** [[1.2_str]] · [[1.3_int]] · [[1.4_float]] · [[1.5_bool]] · [[1.10_dictionary]] · [[1.7_list]] · [[1.8_set]] · [[1.9_dict]]
+- **Data types:** [[1.2_str]] · [[1.3_int]] · [[1.4_float]] · [[1.5_bool]] · [[1.10_dictionary]] · [[1.7_list]] · [[1.8_set]] · [[1.9_tuple]]
 `;export{e as default};

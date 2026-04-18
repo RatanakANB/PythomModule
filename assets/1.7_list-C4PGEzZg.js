@@ -145,7 +145,7 @@ The toys stay **in the order you put them** — that's what "ordered" means!
 - **Parent:** [[1.1_Variables]]
 - **Methods:** [[2.9_List_Methods]] (11 methods — append, sort, remove, etc.)
 - **Similar types:** [[1.10_dictionary]] (like a list but can't change), [[1.8_set]] (like a list but no duplicates)
-- **Related types:** [[1.2_str]] (also ordered and indexable), [[1.9_dict]] (stores key-value pairs instead)
+- **Related types:** [[1.2_str]] (also ordered and indexable), [[1.9_tuple]] (stores key-value pairs instead)
 - **Operators:** [[3.1_Arithmetic]] (\`+\` joins lists), [[3.5_Membership]] (\`in\` checks if item exists), [[3.4_Comparison]] (compare lists)
 - **Key concept:** [[2.2_Mutability_vs_Immutability]] — lists are **mutable** (can change)
 `;export{e as default};

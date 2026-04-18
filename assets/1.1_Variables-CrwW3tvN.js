@@ -120,7 +120,7 @@ The notebook **remembers** everything. That's what variables do — they remembe
 
 ## 🔗 Related Concepts
 
-- **Data Types:** [[1.2_str]] · [[1.3_int]] · [[1.4_float]] · [[1.5_bool]] · [[1.6_NoneType]] · [[1.7_list]] · [[1.8_set]] · [[1.10_dictionary]] · [[1.9_dict]]
+- **Data Types:** [[1.2_str]] · [[1.3_int]] · [[1.4_float]] · [[1.5_bool]] · [[1.6_NoneType]] · [[1.7_list]] · [[1.8_set]] · [[1.10_dictionary]] · [[1.9_tuple]]
 - **Use methods on variables:** [[2.1_What_Are_Methods]]
 - **Combine variables with:** [[3.1_Arithmetic]] · [[3.4_Comparison]] · [[3.3_Logical]]
 - **Check what type a variable is:** Use \`type(variable_name)\`

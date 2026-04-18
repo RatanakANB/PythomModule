@@ -65,7 +65,7 @@ mindmap
 | [[1.2_str]] — Text | [[1.7_list]] — Ordered, changeable |
 | [[1.3_int]] — Whole numbers | [[1.8_set]] — Unique, unordered |
 | [[1.4_float]] — Decimal numbers | [[1.10_dictionary]] — Ordered, unchangeable |
-| [[1.5_bool]] — True / False | [[1.9_dict]] — Key-value pairs |
+| [[1.5_bool]] — True / False | [[1.9_tuple]] — Key-value pairs |
 | [[1.6_NoneType]] — Nothing / Empty | |
 
 ---
@@ -82,7 +82,7 @@ mindmap
 | [[2.4_Methods_Insight]]            | [[2.8_Bool_Methods]] (11 methods)   |
 |                                | [[2.9_List_Methods]] (11 methods)   |
 |                                | [[2.10_Set_Methods]] (17 methods)    |
-|                                | [[2.13_Tuple_Methods]] (2 methods)   |
+|                                | [[2.11_Tuple_Methods]] (2 methods)   |
 |                                | [[2.12_Dict_Methods]] (11 methods)   |
 
 ---

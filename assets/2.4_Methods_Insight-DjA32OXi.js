@@ -45,11 +45,11 @@ flowchart LR
 | Check | Boolean logic | [[1.2_str]], [[1.8_set]], [[1.3_int]], [[1.4_float]] | Validation |
 | Search | Find data | [[1.2_str]], [[1.7_list]], [[1.10_dictionary]] | Locate |
 | Modify | Change data | [[1.2_str]] | Transform |
-| Addition | Add elements | [[1.7_list]], [[1.8_set]], [[1.9_dict]] | Expand |
-| Removal | Remove elements | [[1.7_list]], [[1.8_set]], [[1.9_dict]] | Reduce |
+| Addition | Add elements | [[1.7_list]], [[1.8_set]], [[1.9_tuple]] | Expand |
+| Removal | Remove elements | [[1.7_list]], [[1.8_set]], [[1.9_tuple]] | Reduce |
 | Ordering | Sort/reorder | [[1.7_list]], [[1.2_str]] | Organize |
 | Set Logic | Set operations | [[1.8_set]] | Relationship |
-| Access | Retrieve values | [[1.9_dict]] | Extract |
+| Access | Retrieve values | [[1.9_tuple]] | Extract |
 
 ---
 
@@ -102,7 +102,7 @@ flowchart LR
 | [[1.7_list]] | 11 | ✅ Yes | Most commonly used methods |
 | [[1.8_set]] | 17 | ✅ Yes | Rich set logic operations |
 | [[1.10_dictionary]] | 2 | ❌ No | Only search — can't modify |
-| [[1.9_dict]] | 11 | ✅ Yes | Key-value access & update |
+| [[1.9_tuple]] | 11 | ✅ Yes | Key-value access & update |
 
 ---
 
@@ -138,7 +138,7 @@ These groupings are **pedagogical tools** — they help learning, but they're no
 - The behavior of "adding" changes significantly based on the data type
 
 #### "Access" is too narrow
-- Only [[1.9_dict]] has dedicated access methods (\`get\`, \`keys\`, \`values\`, \`items\`)
+- Only [[1.9_tuple]] has dedicated access methods (\`get\`, \`keys\`, \`values\`, \`items\`)
 - Other types access data through indexing (\`list[0]\`), not methods
 - This category exists because dict access is method-heavy, but it doesn't generalize
 
@@ -205,5 +205,5 @@ print("Hello".isupper())     # False — not all uppercase!
 - **Mutable vs Immutable:** [[2.2_Mutability_vs_Immutability]]
 - **All method references:**
   - [[2.5_String_Methods]] (47) · [[2.6_Int_Methods]] (11) · [[2.7_Float_Methods]] (8) · [[2.8_Bool_Methods]] (11)
-  - [[2.9_List_Methods]] (11) · [[2.10_Set_Methods]] (17) · [[2.13_Tuple_Methods]] (2) · [[2.12_Dict_Methods]] (11)
+  - [[2.9_List_Methods]] (11) · [[2.10_Set_Methods]] (17) · [[2.11_Tuple_Methods]] (2) · [[2.12_Dict_Methods]] (11)
 `;export{e as default};

@@ -353,7 +353,7 @@ print(candy_bag)            # ['chocolate', 'gummy bear', 'lollipop']
 - **Data type:** [[1.7_list]]
 - **Mutable behavior:** [[2.2_Mutability_vs_Immutability]] — methods modify in place
 - **Call syntax:** [[2.3_Method_Call_Syntax]]
-- **Compare with:** [[2.13_Tuple_Methods]] (only 2 — tuples are immutable)
+- **Compare with:** [[2.11_Tuple_Methods]] (only 2 — tuples are immutable)
 - **Overview:** [[2.4_Methods_Insight]]
 - **Other methods:** [[2.5_String_Methods]] · [[2.10_Set_Methods]] · [[2.12_Dict_Methods]]
 

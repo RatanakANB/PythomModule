@@ -11,7 +11,7 @@ var e=`	# 📦 Membership Operators
 
 ### What is it?
 
-Python has 2 membership operators: \`in\` and \`not in\`. They check whether a value is found inside a sequence ([[1.2_str]], [[1.7_list]], [[1.10_dictionary]], [[1.8_set]], [[1.9_dict]]).
+Python has 2 membership operators: \`in\` and \`not in\`. They check whether a value is found inside a sequence ([[1.2_str]], [[1.7_list]], [[1.10_dictionary]], [[1.8_set]], [[1.9_tuple]]).
 
 ### Why does it exist?
 
@@ -150,12 +150,12 @@ print("z" in word)             # False — no 'z' here!
 
 ## 🔗 Related Concepts
 
-- **Works with:** [[1.2_str]] · [[1.7_list]] · [[1.10_dictionary]] · [[1.8_set]] · [[1.9_dict]]
+- **Works with:** [[1.2_str]] · [[1.7_list]] · [[1.10_dictionary]] · [[1.8_set]] · [[1.9_tuple]]
 - **Results are:** [[1.5_bool]]
 - **Combine with:** [[3.3_Logical]] (\`and\`, \`or\`, \`not\`)
 - **Related:** [[3.4_Comparison]] (compares values), [[3.6_Identity]] (checks same object)
 - **Set is fastest:** [[1.8_set]] is designed for membership testing
-- **Dict checks keys:** [[1.9_dict]] — \`in\` only checks keys, not values
+- **Dict checks keys:** [[1.9_tuple]] — \`in\` only checks keys, not values
 - **Parent:** [[00_Index]]
 
 `;export{e as default};

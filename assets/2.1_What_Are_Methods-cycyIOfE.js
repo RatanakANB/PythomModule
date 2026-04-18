@@ -7,7 +7,7 @@ var e=`# 🔧 What Are Methods?
 
 ## 📖 Beginner-Friendly Explanation
 
-A **method** is a **built-in tool** that belongs to a specific data type. Every [[1.2_str]], [[1.3_int]], [[1.7_list]], [[1.9_dict]], and other type comes with its own set of methods.
+A **method** is a **built-in tool** that belongs to a specific data type. Every [[1.2_str]], [[1.3_int]], [[1.7_list]], [[1.9_tuple]], and other type comes with its own set of methods.
 
 ### What is it?
 
@@ -146,6 +146,6 @@ Each toy (variable) has its **own special buttons** (methods). A [[1.2_str|text 
 - **How to call methods:** [[2.3_Method_Call_Syntax]]
 - **Mutable vs Immutable:** [[2.2_Mutability_vs_Immutability]]
 - **All methods at a glance:** [[2.4_Methods_Insight]]
-- **Method references:** [[2.5_String_Methods]] · [[2.6_Int_Methods]] · [[2.7_Float_Methods]] · [[2.8_Bool_Methods]] · [[2.9_List_Methods]] · [[2.10_Set_Methods]] · [[2.13_Tuple_Methods]] · [[2.12_Dict_Methods]]
-- **Parent types:** [[1.2_str]] · [[1.3_int]] · [[1.4_float]] · [[1.5_bool]] · [[1.7_list]] · [[1.8_set]] · [[1.10_dictionary]] · [[1.9_dict]]
+- **Method references:** [[2.5_String_Methods]] · [[2.6_Int_Methods]] · [[2.7_Float_Methods]] · [[2.8_Bool_Methods]] · [[2.9_List_Methods]] · [[2.10_Set_Methods]] · [[2.11_Tuple_Methods]] · [[2.12_Dict_Methods]]
+- **Parent types:** [[1.2_str]] · [[1.3_int]] · [[1.4_float]] · [[1.5_bool]] · [[1.7_list]] · [[1.8_set]] · [[1.10_dictionary]] · [[1.9_tuple]]
 `;export{e as default};
