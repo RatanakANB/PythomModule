@@ -12,7 +12,27 @@
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     
     <title>Obsidian Web Viewer</title>
-    <script type="module" crossorigin src="/PythomModule/assets/index-Bu8X13Pt.js"></script>
+    <script type="text/javascript">
+      // Fix Google Translate / React conflict that causes "insertBefore" crash
+      (function() {
+        if (typeof Node === 'undefined') return;
+        const originalInsertBefore = Node.prototype.insertBefore;
+        Node.prototype.insertBefore = function(newNode, referenceNode) {
+          if (referenceNode && referenceNode.parentNode !== this) {
+            return newNode;
+          }
+          return originalInsertBefore.apply(this, arguments);
+        };
+        const originalRemoveChild = Node.prototype.removeChild;
+        Node.prototype.removeChild = function(child) {
+          if (child && child.parentNode !== this) {
+            return child;
+          }
+          return originalRemoveChild.apply(this, arguments);
+        };
+      })();
+    </script>
+    <script type="module" crossorigin src="/PythomModule/assets/index-Cu3CXYPV.js"></script>
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/rolldown-runtime-FhOqtrmT.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vendor-graph-Dpe2AMcY.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vendor-mermaid-totgUvvH.js">
@@ -21,9 +41,20 @@
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vendor-react-BC7OmAef.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/generated-glob-D1UJn_ql.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vault-BC8Ct5Cl.js">
-    <link rel="stylesheet" crossorigin href="/PythomModule/assets/index-BAMMLuPd.css">
+    <link rel="stylesheet" crossorigin href="/PythomModule/assets/index-VZUlMV7M.css">
   <link rel="manifest" href="/PythomModule/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
+    <div id="google_translate_element" style="display:none"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,km,zh-CN',
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>
