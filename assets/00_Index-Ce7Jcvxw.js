@@ -57,6 +57,8 @@ mindmap
 
 ### 📦 [[1.01_Variables]] & Data Types
 
+> 💬 **User Interaction:** Learn how to get dynamic keyboard input using \`input()\` in [[1.01_Variables]].
+
 | Singular Data (One Value) | Multi Data (Many Values) |
 |---------------------------|--------------------------|
 | [[1.02_String]] — Text | [[1.07_list]] — Ordered, changeable |
