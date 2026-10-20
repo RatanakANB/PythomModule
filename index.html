@@ -13,6 +13,16 @@
     
     <title>Obsidian Web Viewer</title>
     <script type="text/javascript">
+      try {
+        const savedTheme = localStorage.getItem('obsidian_theme');
+        if (savedTheme === 'light') {
+          document.documentElement.classList.remove('dark');
+        } else if (savedTheme === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    </script>
+    <script type="text/javascript">
       // Fix Google Translate / React conflict that causes "insertBefore" crash
       (function() {
         if (typeof Node === 'undefined') return;
@@ -32,7 +42,7 @@
         };
       })();
     </script>
-    <script type="module" crossorigin src="/PythomModule/assets/index-Cnv_IC9M.js"></script>
+    <script type="module" crossorigin src="/PythomModule/assets/index-BjwmJi9C.js"></script>
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/rolldown-runtime-FhOqtrmT.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vendor-graph-CZbGkQC4.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vendor-mermaid-DZAknDg4.js">
@@ -41,7 +51,7 @@
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vendor-react-CRnq_rh3.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/vault-DXPtOwXX.js">
     <link rel="modulepreload" crossorigin href="/PythomModule/assets/button-CZEGvK95.js">
-    <link rel="stylesheet" crossorigin href="/PythomModule/assets/index-ClFQX2cv.css">
+    <link rel="stylesheet" crossorigin href="/PythomModule/assets/index-BKJtA52L.css">
   <link rel="manifest" href="/PythomModule/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
